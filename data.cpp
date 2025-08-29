@@ -4,6 +4,7 @@
 int main() {
     int n;        
     srand((unsigned)time(NULL)); 
+    printf("数据规模："); 
     if (scanf("%d", &n) != 1 || n < 1) {
         printf("输入数据格式错误！");          
     }    
